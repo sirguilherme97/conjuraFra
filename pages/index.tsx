@@ -35,8 +35,8 @@ function Table() {
         {busca == '' ? (
           <div style={{ display: 'flex', gap: '8px', marginTop: '40px', fontSize: '14pt', color: 'gray' }}>
             {ListaFiltrada.map((e: any) => (
-              <div key={e.verb} style={{ display: 'flex', background: "#ccc", color: 'steelblue', padding: '8px', borderRadius: '6px', cursor: 'pointer' }}>
-                <p onClick={() => { setBusca(e.verb) }}>{e.verb}</p>
+              <div onClick={() => { setBusca(e.verb) }} key={e.verb} style={{ display: 'flex', background: "#ccc", color: 'steelblue', padding: '8px', borderRadius: '6px', cursor: 'pointer' }}>
+                <p>{e.verb}</p>
               </div>
             ))}
           </div>
