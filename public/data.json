@@ -599,6 +599,66 @@
                     ]
                 }
             ]
+        },
+        {
+            "verb": "voir",
+            "tenses": [
+                {
+                    "tense": "le passé",
+                    "conjugations": [
+                        {
+                            "term": "passé récent",
+                            "definition": "Je viens de voir"
+                        },
+                        {
+                            "term": "passé composé",
+                            "definition": "J'ai vu"
+                        },
+                        {
+                            "term": "imparfait",
+                            "definition": "Je voyais"
+                        },
+                        {
+                            "term": "plus-que-parfait",
+                            "definition": "J'avais vu"
+                        }
+                    ]
+                },
+                {
+                    "tense": "le présent",
+                    "conjugations": [
+                        {
+                            "term": "présent",
+                            "definition": "Je vois"
+                        },
+                        {
+                            "term": "imperative",
+                            "definition": "Vois(j'), Voyez(il), Voyons(nous)"
+                        },
+                        {
+                            "term": "préset progressif",
+                            "definition": "Je suis en train de voir"
+                        }
+                    ]
+                },
+                {
+                    "tense": "le futur",
+                    "conjugations": [
+                        {
+                            "term": "futur proche",
+                            "definition": "Je vais voir"
+                        },
+                        {
+                            "term": "futur antérieur",
+                            "definition": "J'aurai vu"
+                        },
+                        {
+                            "term": "futur simple",
+                            "definition": "Je verrai"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
