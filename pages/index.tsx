@@ -35,7 +35,7 @@ function Table() {
         {busca == '' ? (
           <div style={{ display: 'flex', gap: '8px', marginTop: '40px', fontSize: '14pt', color: 'gray' }}>
             {ListaFiltrada.map((e: any) => (
-              <div style={{ display: 'flex', background: "#ccc", color: 'steelblue', padding: '8px', borderRadius: '6px', cursor: 'pointer' }}>
+              <div key={e.verb} style={{ display: 'flex', background: "#ccc", color: 'steelblue', padding: '8px', borderRadius: '6px', cursor: 'pointer' }}>
                 <p onClick={() => { setBusca(e.verb) }}>{e.verb}</p>
               </div>
             ))}
@@ -44,13 +44,13 @@ function Table() {
           <div style={{ width: '100%', display: 'flex', flexDirection: 'row', gap: '80px', marginTop: '80px', alignItems: 'flex-start', justifyContent: 'space-between' }}>
             <div style={{ display: 'flex', flexDirection: 'column', width: '100%', border: '3px solid #BBB', padding: '20px', borderRadius: '16px', boxShadow: '2px 2px 5px 5px #ccc9' }}>
               {ListaFiltrada.map((e: any) => (
-                <div style={{ display: 'flex', gap: '50px', flexDirection: 'row', alignItems: 'flex-start', justifyContent: 'space-evenly' }}>
+                <div key={e.verb} style={{ display: 'flex', gap: '50px', flexDirection: 'row', alignItems: 'flex-start', justifyContent: 'space-evenly' }}>
                   {e.verb != busca ? (<></>) : (
                     e.tenses.map((e: any) => (
-                      <div style={{ display: 'flex', flexDirection: 'column' }}>
+                      <div key={e.conjugations} style={{ display: 'flex', flexDirection: 'column' }}>
                         <p style={{ fontSize: '14pt', color: 'firebrick', marginBottom: '16px' }}><b>{e.tense}</b></p>
                         {e.conjugations.map((e: any) => (
-                          <div style={{ display: 'flex', flexDirection: 'column', color: 'steelblue', minWidth: '350px', padding: '4px' }}>
+                          <div key={e.term} style={{ display: 'flex', flexDirection: 'column', color: 'steelblue', minWidth: '350px', padding: '4px' }}>
                             <p style={{ background: '#ccc', padding: '6px' }}><b>{e.term}</b></p>
                             <p style={{ paddingTop: '10px', color: '#111', padding: '4px' }}>{e.definition}</p>
                           </div>
