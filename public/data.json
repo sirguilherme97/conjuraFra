@@ -479,6 +479,126 @@
                     ]
                 }
             ]
+        },
+        {
+            "verb": "dire",
+            "tenses": [
+                {
+                    "tense": "le passé",
+                    "conjugations": [
+                        {
+                            "term": "passé récent",
+                            "definition": "Je viens de dire"
+                        },
+                        {
+                            "term": "passé composé",
+                            "definition": "J'ai dit"
+                        },
+                        {
+                            "term": "imparfait",
+                            "definition": "Je disais"
+                        },
+                        {
+                            "term": "plus-que-parfait",
+                            "definition": "J'avais dit"
+                        }
+                    ]
+                },
+                {
+                    "tense": "le présent",
+                    "conjugations": [
+                        {
+                            "term": "présent",
+                            "definition": "Je dis"
+                        },
+                        {
+                            "term": "imperative",
+                            "definition": "Dis(j'), Dites(il), Disons(nous)"
+                        },
+                        {
+                            "term": "préset progressif",
+                            "definition": "Je suis en train de dire"
+                        }
+                    ]
+                },
+                {
+                    "tense": "le futur",
+                    "conjugations": [
+                        {
+                            "term": "futur proche",
+                            "definition": "Je vais dire"
+                        },
+                        {
+                            "term": "futur antérieur",
+                            "definition": "J'aurai dit"
+                        },
+                        {
+                            "term": "futur simple",
+                            "definition": "Je dirai"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "verb": "aller",
+            "tenses": [
+                {
+                    "tense": "le passé",
+                    "conjugations": [
+                        {
+                            "term": "passé récent",
+                            "definition": "Je viens d'aller"
+                        },
+                        {
+                            "term": "passé composé",
+                            "definition": "Je suis allé(e)"
+                        },
+                        {
+                            "term": "imparfait",
+                            "definition": "Je allais"
+                        },
+                        {
+                            "term": "plus-que-parfait",
+                            "definition": "J'étais allé(e)"
+                        }
+                    ]
+                },
+                {
+                    "tense": "le présent",
+                    "conjugations": [
+                        {
+                            "term": "présent",
+                            "definition": "Je vais"
+                        },
+                        {
+                            "term": "imperative",
+                            "definition": "Va(j'), Allez(il), Allons(nous)"
+                        },
+                        {
+                            "term": "préset progressif",
+                            "definition": "Je suis en train d'aller"
+                        }
+                    ]
+                },
+                {
+                    "tense": "le futur",
+                    "conjugations": [
+                        {
+                            "term": "futur proche",
+                            "definition": "Je vais aller"
+                        },
+                        {
+                            "term": "futur antérieur",
+                            "definition": "J'irai"
+                        },
+                        {
+                            "term": "futur simple",
+                            "definition": "Je irai"
+                        }
+                    ]
+                }
+            ]
         }
     ]
 }
